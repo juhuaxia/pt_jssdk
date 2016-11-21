@@ -9,7 +9,7 @@ Web端使用方式：
 ================
 
 # Installation
-    在页面中引入pt_jssdk_v1.0.2.js<br>
+    在页面中引入pt_jssdk_v1.0.2.js
     
   or<br>
     
