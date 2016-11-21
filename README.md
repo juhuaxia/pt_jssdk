@@ -2,7 +2,7 @@
 # pt_jssdk
 葡萄纬度SDK
 
-注. 需要使用sdk，需要在url上加上参数inapp=1
+注. 使用sdk，需要在url上加上参数inapp=1
 -------------------
 
 Web端使用方式：
