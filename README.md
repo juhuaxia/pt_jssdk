@@ -143,6 +143,6 @@ Web端使用方式：
 客户端主动与web前端交互的使用方法
 ---------
     1.前端开发者，通过pt_jssdk.on(type,callback),来订阅一个事件，
-      一个参数为自定义的事件名，callback是回调函数，接收一个参数
+      一个参数为自定义的事件名，callback是回调函数，接收一个参数，类型为 object
     2.客户端直接调用pt_dispatch(type,data) 方法，
     type：类型string，跟web前端开发者约定好的的事件名，data为需要传递给前端的数据
