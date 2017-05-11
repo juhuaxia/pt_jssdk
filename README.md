@@ -11,9 +11,9 @@ Web端使用方式：
 # Installation
     在页面中引入pt_jssdk_v1.0.2.js<br>
     
-  or<br>
+  <!--or<br>
     
-    npm install pt_jssdk
+    npm install pt_jssdk-->
 
 # example
     pt_jssdk.openWebView({
@@ -137,6 +137,27 @@ Web端使用方式：
     <tr><td>url</td><td>string</td><td>原文地址</td></tr>
     <tr><td>title</td><td>string</td><td>文章的title</td></tr>
     <tr><td>id</td><td>string</td><td>文章id(非必须)</td></tr>
+  </tbody>
+</table>
+
+# openNativeView
+    阅读原文
+<table>
+  <tbody>
+    <tr>
+      <td>
+       参数名称
+      </td>
+      <td>
+       类型
+      </td>
+      <td>
+       说明
+      </td>
+    </tr>
+    <tr><td>type</td><td>string</td><td>需要打开的view的类型，比如:打开专题还是产品详情</td></tr>
+    <tr><td>title</td><td>string</td><td>文章的title</td></tr>
+    <tr><td>id</td><td>string</td><td>打开页面需要的id</td></tr>
   </tbody>
 </table>
 
