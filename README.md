@@ -141,7 +141,7 @@ Web端使用方式：
 </table>
 
 # openNativeView
-    阅读原文
+    打开原生view
 <table>
   <tbody>
     <tr>
