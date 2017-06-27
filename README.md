@@ -179,6 +179,7 @@ Web端使用方式：
     <tr><td>title</td><td>string</td><td>分享的title</td></tr>
     <tr><td>pic</td><td>string</td><td>分享出去的icon图片</td></tr>
     <tr><td>desc</td><td>string</td><td>分享的简介文字/td></tr>
+    <tr><td>url</td><td>string</td><td>分享的页面地址/td></tr>
   </tbody>
 </table>
 
