@@ -161,6 +161,27 @@ Web端使用方式：
   </tbody>
 </table>
 
+# nativeShare
+    调用原生分享功能
+<table>
+  <tbody>
+    <tr>
+      <td>
+       参数名称
+      </td>
+      <td>
+       类型
+      </td>
+      <td>
+       说明
+      </td>
+    </tr>
+    <tr><td>title</td><td>string</td><td>分享的title</td></tr>
+    <tr><td>pic</td><td>string</td><td>分享出去的icon图片</td></tr>
+    <tr><td>desc</td><td>string</td><td>分享的简介文字/td></tr>
+  </tbody>
+</table>
+
 客户端主动与web前端交互的使用方法
 ---------
     1.前端开发者，通过pt_jssdk.on(type,callback),来订阅一个事件，
